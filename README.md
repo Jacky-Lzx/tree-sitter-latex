@@ -7,7 +7,11 @@ This repo provides a [LaTeX](https://www.latex-project.org/) grammar for the [tr
 
 Originally, this grammar is based off the parser of the [`texlab`](https://github.com/latex-lsp/texlab) language server and primarily focuses on the constructs that are relevant for the language server.
 
-This repository does not provide the accompanying highlighting definitions, instead they live in the [`nvim-treesitter`](https://github.com/nvim-treesitter/nvim-treesitter/tree/master/queries/latex) repository.
+This fork bundles Neovim highlighting, folding and injection queries in
+[`neovim/`](neovim/README.md), derived from a pinned nvim-treesitter revision.
+The queries include delimiter compilation and highlight priority fixes, so consumers
+can use the parser and queries together without runtime query rewrites.
+The grammar is MIT-licensed; the bundled queries are Apache-2.0-licensed.
 
 To generate the parser, run
 

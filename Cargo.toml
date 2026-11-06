@@ -6,13 +6,13 @@ keywords = ["incremental", "parsing", "latex"]
 categories = ["parsing", "text-editors"]
 repository = "https://github.com/latex-lsp/tree-sitter-latex"
 edition = "2018"
-license = "MIT"
+license = "MIT AND Apache-2.0"
 authors = ["Patrick Förster <patrick.foerster@outlook.de>"]
 readme = "README.md"
 autoexamples = false
 
 build = "bindings/rust/build.rs"
-include = ["bindings/rust/*", "grammar.js", "queries/*", "src/*"]
+include = ["bindings/rust/*", "grammar.js", "neovim/**", "src/*"]
 
 [lib]
 path = "bindings/rust/lib.rs"

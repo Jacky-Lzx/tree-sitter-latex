@@ -25,11 +25,11 @@
     "binding.gyp",
     "prebuilds/**",
     "bindings/node/*",
-    "queries/*",
+    "neovim/**",
     "src/**"
   ],
   "author": "Patrick Förster <patrick.foerster@outlook.de>",
-  "license": "MIT",
+  "license": "MIT AND Apache-2.0",
   "bugs": {
     "url": "https://github.com/latex-lsp/tree-sitter-latex/issues"
   },

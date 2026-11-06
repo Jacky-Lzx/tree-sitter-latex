@@ -10,7 +10,7 @@
   ],
   "metadata": {
     "version": "0.6.0",
-    "license": "MIT",
+    "license": "MIT AND Apache-2.0",
     "description": "Latex grammar for tree-sitter",
     "authors": [
       {
